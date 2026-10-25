@@ -1,3 +1,0 @@
-site = "tpl-sphere"
-dir = "dist"
-build = "pnpm run build"
