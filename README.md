@@ -1,89 +1,58 @@
-![Astro Sphere Lighthouse Score](_astrosphere.jpg)
+# Sphere — portfolio template
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+A polished home for your work, projects, and writing.
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+![Preview of the Sphere template](.github/preview.webp)
 
-## 🚀 Deploy your own
+[Live preview](https://tpl-sphere.leafcloud.app) · [All templates](https://leafcloud.in/templates/)
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/LEAFCLOUD_ORG/astro-sphere)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LEAFCLOUD_ORG/astro-sphere)
+## Make it yours in one step
 
-## 📋 Features
+Paste this prompt into your coding agent:
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
-- ✅ Code Blocks - copy to clipboard
+```text
+Set up the LeafCloud "Sphere" template for me: fetch https://leafcloud.in/templates/sphere.md and follow it step by step.
+```
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](_lighthouse.png)
+Works with Claude Code, Codex, Cursor, or any coding agent. It asks a few questions, fills in your details, and puts the site online at `<your-name>.leafcloud.app`.
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+## Or do it yourself
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+Choose **Use this template** on [GitHub](https://github.com/leafcloud-in/template-sphere), or clone it:
 
-## 📄 Configuration
+```sh
+git clone https://github.com/leafcloud-in/template-sphere.git
+cd template-sphere
+pnpm install --frozen-lockfile
+pnpm run dev
+```
 
-The blog posts on the demo serve as the documentation and configuration.
+The dev server prints a local address in your terminal. Open that address in a browser and leave the server running while you edit.
 
-## 💻 Commands
+Edit src/consts.ts, src/content/blog/, src/content/projects/, and src/content/work/. Keep the existing design and replace the fictional sample details with your own.
 
-All commands are run from the root of the project, from a terminal:
+Before publishing, make a production build:
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+```sh
+pnpm run build
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts dev server on local network               |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Starts preview server on local network           |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+When you are ready to publish, get LeafCloud access at [leafcloud.in](https://leafcloud.in) (join the waitlist or sign in), then install the CLI:
 
-## 🗺️ Roadmap
+```sh
+curl -fsSL https://leafcloud.in/install.sh | sh
+leaf init --name <your-site> --yes
+leaf deploy --yes
+```
 
-A few features I plan to implement
-- ⬜ Article Pages - Table of Contents
-- ⬜ Article Pages - Share on social media
+LeafCloud will publish the site at `https://<your-site>.leafcloud.app`.
 
-## ✨ Acknowledgement
+The local preview is available at http://localhost:4321 for Astro templates or http://localhost:3000 for CV.
 
-Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
+## Changing it later
 
+Ask your agent: “add my new project and redeploy”. AGENTS.md tells it which files to update and how to build and publish again.
 
-## 🏛️ License
+## Credits
 
-MIT
-
-
-# 1.0.1 Update
-
-Added ability to run dev and preview on local network.
-added npm run dev:network
-added npm run preview:network
-
-Added slightly more particle density in both light and dark mode.
-
-Added subtle dark mode star and meteor animations.
-
-Removed eslint config
-
+Built on [markhorn-dev/astro-sphere](https://github.com/markhorn-dev/astro-sphere) by Mark Horn, under the MIT licence. The LICENSE file is unchanged. LeafCloud changes are listed in [LEAFCLOUD.md](LEAFCLOUD.md). The original project README is in [docs/UPSTREAM-README.md](docs/UPSTREAM-README.md).

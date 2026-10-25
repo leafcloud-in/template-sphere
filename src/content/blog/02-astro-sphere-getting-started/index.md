@@ -76,8 +76,8 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "LEAFCLOUD_ORG",
-    HREF: "https://github.com/LEAFCLOUD_ORG/template-sphere"
+    TEXT: "leafcloud-in",
+    HREF: "https://github.com/leafcloud-in/template-sphere"
   },
 ]
 ```
