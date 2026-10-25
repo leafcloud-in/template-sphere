@@ -79,7 +79,7 @@ tags:
 - Tailwind
 - SolidJS
 demoUrl: https://astro-sphere.vercel.app
-repoUrl: https://github.com/markhorn-dev/astro-sphere
+repoUrl: https://github.com/LEAFCLOUD_ORG/template-sphere
 ---
 ```
 

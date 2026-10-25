@@ -21,7 +21,7 @@ export const SOCIALS: Socials = [
     NAME: "Github",
     ICON: "github",
     TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    HREF: "https://github.com/LEAFCLOUD_ORG/template-sphere"
   },
 ]
 ```
