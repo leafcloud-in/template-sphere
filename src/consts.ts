@@ -63,7 +63,7 @@ export const SOCIALS: Socials = [
     NAME: "Github",
     ICON: "github",
     TEXT: "asha-rao",
-    HREF: "https://github.com/asha-rao/astro-sphere"
+    HREF: "https://github.com/asha-rao"
   },
   { 
     NAME: "LinkedIn",
